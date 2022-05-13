@@ -13,12 +13,24 @@ console.log(birthYear)*/
 
 //----------------------------------------
 
-// Exercício 02
+/* Exercício 01
+const a = 14;
+const b = 7;
 
-let patientId = 50;
-let isEnrolled = true;
-const patientInfo = {
-  firstName: 'Ana',
-  lastName: 'Santos',
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a%b); */
+
+//----------------------------------------
+
+//Exercício 02
+
+const a = 14;
+const b = 7;
+
+if (a > b){
+  console.log(a);
+} else {
+  console.log(b)
 };
-const patientEmail = 'ana@email.com';
