@@ -49,11 +49,41 @@ if (resultado > 20){
 
 //Exercício 05: descubra qual o maior valor contido no array e imprima-o
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-for (let index = 0; index < numbers.length; index += 1){
-    let elemento = numbers[index];
-    for (contador = 0; contador < numbers.length; contador ++){
-        if (elemento < numbers[contador] && elemento != numbers[contador])
-    }
+/*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let higherNumber = numbers[0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+  if (numbers[index] > higherNumber) {
+    higherNumber = numbers[index];
+  }
 }
+
+console.log(higherNumber);*/
+
+//---------------------------------------------------------------------
+
+// EXERCÍCIO 06: escubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+
+//let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+/*let numbers = [2, 4, 6, 8, 70, 8, 100, 2, 10, 12];
+let numerosImpares = [];
+
+for (let index = 0; index < numbers.length; index += 1) {
+    if (numbers[index] % 2 == 0){
+  } else {
+      console.log(numbers[index]);
+      numerosImpares.push(numbers[index])
+  }
+
+}
+
+if (numerosImpares.length == 0){
+    console.log('Nenhum valor ímpar encontrado');
+} else {
+console.log('Total de números ímpares: ' + numerosImpares.length);
+}*/
+
+//---------------------------------------------------------------------
+
+//
 
