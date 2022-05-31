@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybe Trip | Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="content">
+        <h1 id="form-title">Formulário de Inscrição</h1>
+        <p id="form-description">Preencha este formulário para concorrer a uma viagem pela Trybe</p>
+        <form action="" method="get">
+            <label for="fname" class="input-field">Nome completo:<br>
+                <input type="text" name="fname" id="full-name" placeholder="Insira seu nome completo" minlength="10" maxlength="40" required>
+            </label>
+            <label for="email" class="input-field">Email:<br>
+                <input type="email" name="email" id="E-mail" placeholder="Insira seu email" minlength="10" maxlength="50" required>
+            </label><br>
+            <section id="destinos">
+                <h4>Destino preferido:</h4>
+                <label for="Cidade" class="input-field">
+                    <input type="radio" name="destino" id="Cidade" placeholder="Insira destino" minlength="10" maxlength="50" required>Cidade
+                </label>
+                <label for="Campo">
+                    <input type="radio" name="destino" id="Campo" placeholder="Insira destino" minlength="10" maxlength="50" required>Campo
+                </label>
+                <label for="praia">
+                    <input type="radio" name="destino" id="praia" placeholder="Insira destino" minlength="10" maxlength="50" required>Praia
+                    <label for="montanhas">
+                        <input type="radio" name="destino" id="montanhas" placeholder="Insira destino" minlength="10" maxlength="50" required>Montanhas
+            </section>
+                    </main>
+    
+</body>
+</html>
